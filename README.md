@@ -1,62 +1,60 @@
-# Título do projeto
+# Telemarketing Analysis
 
-Um simples resumo do uso/propósito do projeto.
+## Visão Geral
+Este projeto realiza uma análise exploratória de dados de uma campanha de telemarketing de um banco. Utilizando a biblioteca Streamlit, a aplicação permite a importação de um arquivo de dados, aplicação de filtros e geração de gráficos interativos para visualização das informações.
 
-## Descrição do projeto
+## Funcionalidades
+- Upload de arquivos CSV ou Excel com dados da campanha
+- Filtros interativos por idade, profissão, estado civil, tipo de contato, entre outros
+- Geração de tabelas dinâmicas para visualizar a distribuição dos clientes
+- Exportação dos dados filtrados em formato Excel
+- Gráficos dinâmicos (barras e pizza) com Plotly para análise de aceitação da campanha
 
-Um parágrafo aprofundando mais sobre o seu projeto e uma explicação geral do uso.
+## Tecnologias Utilizadas
+- Python
+- Streamlit
+- Pandas
+- Seaborn
+- Plotly
+- XlsxWriter
 
-## Utilização
+## Como Executar o Projeto
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/IsabelleFernanda/Telemarketing.git
+   ```
+2. Acesse o diretório do projeto:
+   ```bash
+   cd Telemarketing
+   ```
+3. Crie um ambiente virtual e instale as dependências:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # No Windows, use: venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
+4. Execute a aplicação:
+   ```bash
+   streamlit run exercicio_02.py
+   ```
 
-### Dependencias
+## Demonstração
+A aplicação está hospedada no Render e pode ser acessada pelo seguinte link:
+[Telemarketing Analysis - Render](https://telemarketing-pnxh.onrender.com/)
 
-* Descreve quaisquer prerequisitos, bibliotecas, versão do SO, etc., que é necessário para rodar o projeto.
-* exemplo. Windows 10...
-
-### Instalação
-
-* Como/aonde fazer o download do seu projeto/programa
-* Quaisquer modificação necessária nos arquivos/diretórios
-
-### Executando o projeto
-
-* Como rodar o projeto/programa
-* Passo a passo em tópicos (bullet points)
+## Estrutura do Projeto
 ```
-bloco de código para os comandos necessários
+Telemarketing/
+│-- exercicio_02.py       # Código principal da aplicação Streamlit
+│-- requirements.txt      # Dependências necessárias
+│-- README.md             # Documentação do projeto
+│-- telmarketing_icon.png # Ícone da página
+│-- Bank-Branding.jpg     # Imagem usada na sidebar
 ```
 
-## Ajuda
+## Contato
+Caso tenha dúvidas ou sugestões, entre em contato via GitHub!
 
-Qualquer ponto importante de problemas ou erros comuns
-```
-comando para rodar se o programa tiver uma informação de ajuda
-```
+---
+Desenvolvido por Isabelle Fernanda 
 
-## Autores
-
-Nomes dos desenvolvedores do projeto e informação para entrar em contato.
-
-ex. Lucas Serra  
-ex. [@LucasSerra](https://www.linkedin.com/in/lucasserra03/)
-
-## Histórico de versões.
-
-* 0.2
-	* Ajustes de diversos bugs e otimização
-* 0.1
-    * Primeira versão
-
-## Licença de uso
-
-Esse projeto possui licença de uso [NAME HERE] - acesse o arquivo LICENSE.md para mais detalhes.
-
-## Fontes de inspiração
-
-Inspiração, trechos de códigos utilizados, etc.
-* [readme-template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)

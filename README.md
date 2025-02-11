@@ -1,7 +1,10 @@
 # Telemarketing Analysis
 
-## Visão Geral
-Este projeto realiza uma análise exploratória de dados de uma campanha de telemarketing de um banco. Utilizando a biblioteca Streamlit, a aplicação permite a importação de um arquivo de dados, aplicação de filtros e geração de gráficos interativos para visualização das informações.
+## Descrição
+Este projeto consiste em uma aplicação interativa desenvolvida com **Streamlit** para análise de dados de campanhas de telemarketing. A aplicação permite carregar um conjunto de dados, aplicar filtros personalizados e visualizar as proporções de aceite da campanha através de gráficos dinâmicos.
+
+## Contexto
+Este projeto foi desenvolvido como parte das atividades do curso **Profissão: Cientista de Dados** da EBAC. O objetivo foi aplicar conceitos de análise de dados, visualização e desenvolvimento de aplicações interativas usando Streamlit.
 
 ## Funcionalidades
 - Upload de arquivos CSV ou Excel com dados da campanha
@@ -56,5 +59,8 @@ Telemarketing/
 Caso tenha dúvidas ou sugestões, entre em contato via GitHub!
 
 ---
-Desenvolvido por Isabelle Fernanda 
+## Autor
+[Isabelle Fernanda](https://github.com/IsabelleFernanda)
+
+Projeto desenvolvido durante a aula Streamlit III, IV do curso **Profissão: Cientista de Dados** da EBAC, ministrada pelo professor [@LucasSerra](https://www.linkedin.com/in/lucasserra03/).
 
